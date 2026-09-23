@@ -1,3 +1,5 @@
+Team Members: Diego, Ayden, Zay
+
 Sprint 1 Goal: A user can log into the app and set up a weekly plan
 
 Table:

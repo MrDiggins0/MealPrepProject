@@ -1,3 +1,5 @@
+We used ChatGPT to generate some user stories and chose these 5 out of the 12 that it originally generated. We looked for stories that prioritized building a meal schedule and calorie tracking
+
 1. Search and Filter Recipes
 User story: As a student, I want to search and filter meal-prep recipes by cost, ingredients, dietary restrictions, and cooking time, so that I can quickly find meals that fit my needs.
 Testable criteria:

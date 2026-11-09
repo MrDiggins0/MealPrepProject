@@ -25,16 +25,28 @@
             padding: 30px;
         }
         .nav-button {
-            padding: 10px 20px;
-            background-color: #555;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-right: 10px;
-        }
+                padding: 12px 24px;
+                background: linear-gradient(135deg, #4CAF50, #2E7D32);
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                margin-right: 12px;
         
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                transition: all 0.3s ease;
+        }
         .nav-button:hover {
-            background-color: #777;
+                background: linear-gradient(135deg, #66BB6A, #388E3C);
+                transform: translateY(-3px);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-button:active {
+                transform: translateY(0);
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
+
         }

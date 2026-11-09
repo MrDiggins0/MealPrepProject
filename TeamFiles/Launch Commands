@@ -1,0 +1,5 @@
+RUN THIS IN TERMINAL: 
+py -c "import http.server; H=http.server.SimpleHTTPRequestHandler; H.extensions_map={**H.extensions_map,'.js':'text/javascript'}; http.server.test(HandlerClass=H,port=8080)"
+
+ENTER THIS LINK IN BROWSER AFTER:
+http://localhost:8080/MainFiles/Front%20End/login.html

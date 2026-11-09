@@ -1,7 +1,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: grey;
         }
 
         header {
@@ -26,8 +26,8 @@
         }
         .nav-button {
                 padding: 5px 25px;
-                background: green;
-                color: green;
+                background: black;
+                color: teal;
                 border: none;
                 border-radius: 12px;
                 font-size: 50px;
@@ -50,4 +50,3 @@
         }
         
 
-        }

@@ -25,28 +25,33 @@
             padding: 30px;
         }
         .nav-button {
-                padding: 12px 24px;
-                background: linear-gradient(135deg, #4CAF50, #2E7D32);
+                padding: 18px 35px;
+                background: linear-gradient(135deg, #00C853, #009624);
                 color: white;
                 border: none;
-                border-radius: 10px;
-                font-size: 16px;
+                border-radius: 12px;
+                font-size: 20px;
                 font-weight: bold;
                 cursor: pointer;
-                margin-right: 12px;
-        
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                margin-right: 15px;
+
+                box-shadow: 0 5px 15px rgba(0, 150, 36, 0.35);
                 transition: all 0.3s ease;
         }
+
         .nav-button:hover {
-                background: linear-gradient(135deg, #66BB6A, #388E3C);
-                transform: translateY(-3px);
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+                background: linear-gradient(135deg, #69F0AE, #00C853);
+                transform: scale(1.08);
+                box-shadow: 0 8px 20px rgba(0, 200, 83, 0.5);
         }
 
         .nav-button:active {
-                transform: translateY(0);
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+                transform: scale(0.95);
+        }
+        
+        .nav-button:focus-visible {
+                outline: 3px solid #B9F6CA;
+                outline-offset: 4px;
         }
 
         }

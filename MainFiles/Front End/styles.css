@@ -30,7 +30,7 @@
                 color: green;
                 border: none;
                 border-radius: 12px;
-                font-size: 20px;
+                font-size: 50px;
                 font-weight: bold;
                 cursor: pointer;
                 margin-right: 15px;
@@ -49,9 +49,5 @@
                 transform: scale(0.95);
         }
         
-        .nav-button:focus-visible {
-                outline: 3px solid #B9F6CA;
-                outline-offset: 4px;
-        }
 
         }
